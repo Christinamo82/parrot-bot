@@ -182,15 +182,11 @@ Now that Facebook and Heroku can talk to each other we can code out the bot.
     
 5. Go to the Facebook Page and click on Message to start chatting!
 
-![Alt text](/demo/shot4.jpg)
-
 ## ⚙ Customize what the bot says
 
 ### *Send a Structured Message*
 
 Facebook Messenger can send messages structured as cards or buttons. 
-
-![Alt text](/demo/shot5.jpg)
 
 1. Copy the code below to index.js to send a test message back as two cards.
 
@@ -297,8 +293,6 @@ What happens when the user clicks on a message button or card though? Let's upda
 Git add, commit, and push to Heroku again.
 
 Now when you chat with the bot and type 'Generic' you can see this.
-
-   ![Alt text](/demo/shot6.jpg)
 
 ## 📡 How to share your bot
 
