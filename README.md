@@ -89,15 +89,9 @@ You can also skip the whole thing by git cloning this repository, running npm in
 
 1. Create or configure a Facebook App or Page here https://developers.facebook.com/apps/
 
-    ![Alt text](/demo/shot1.jpg)
-
 2. In the app go to Messenger tab then click Setup Webhook. Here you will put in the URL of your Heroku server and a token. Make sure to check all the subscription fields. 
 
-    ![Alt text](/demo/shot3.jpg)
-
 3. Get a Page Access Token and save this somewhere. 
-
-    ![Alt text](/demo/shot2.jpg)
 
 4. Go back to Terminal and type in this command to trigger the Facebook app to send messages. Remember to use the token you requested earlier.
 
@@ -130,7 +124,7 @@ Now that Facebook and Heroku can talk to each other we can code out the bot.
     
     **Optional, but recommended**: keep your app secrets out of version control!
     - On Heroku, its easy to create dynamic runtime variables (known as [config vars](https://devcenter.heroku.com/articles/config-vars)). This can be done in the Heroku dashboard UI for your app **or** from the command line:
-    ![Alt text](/demo/config_vars.jpg)
+    
     ```bash
     heroku config:set FB_PAGE_ACCESS_TOKEN=fake-access-token-dhsa09uji4mlkasdfsd
     
