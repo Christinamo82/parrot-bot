@@ -88,10 +88,15 @@ You can also skip the whole thing by git cloning this repository, running npm in
 ### *Setup the Facebook App*
 
 1. Create or configure a Facebook App or Page here https://developers.facebook.com/apps/
+![][one]
+![][two]
 
 2. In the app go to Messenger tab then click Setup Webhook. Here you will put in the URL of your Heroku server and a token. Make sure to check all the subscription fields. 
+![][three]
+![][four]
 
 3. Get a Page Access Token and save this somewhere. 
+![][five]
 
 4. Go back to Terminal and type in this command to trigger the Facebook app to send messages. Remember to use the token you requested earlier.
 
@@ -313,3 +318,10 @@ You can also connect an AI brain to your bot [here](https://wit.ai)
 Read about all things chat bots with the ChatBots Magazine [here](https://medium.com/chat-bots)
 
 You can also design Messenger bots in Sketch with the [Bots UI Kit](https://bots.mockuuups.com)!
+
+[one]: https://github.com/SunayaShivakumar/parrot-bot/blob/master/images/one.png
+[two]: https://github.com/SunayaShivakumar/parrot-bot/blob/master/images/two.png
+[three]: https://github.com/SunayaShivakumar/parrot-bot/blob/master/images/three.png
+[four]: https://github.com/SunayaShivakumar/parrot-bot/blob/master/images/four.png
+[five]: https://github.com/SunayaShivakumar/parrot-bot/blob/master/images/five.png
+
